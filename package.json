@@ -1,7 +1,7 @@
 {
   "name": "annotator",
   "version": "0.1.0",
-  "homepage": "https://shoshanimayan.github.io/3dAnnotator",
+  "homepage": "https://shoshanimayan.github.io/3d-Model-Web-Annotator",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^10.7.7",
