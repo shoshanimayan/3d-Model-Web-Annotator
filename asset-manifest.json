@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/3dAnnotator/static/css/main.daa5184c.css",
+    "main.js": "/3dAnnotator/static/js/main.41427674.js",
+    "static/js/453.b5aaa8bc.chunk.js": "/3dAnnotator/static/js/453.b5aaa8bc.chunk.js",
+    "index.html": "/3dAnnotator/index.html",
+    "main.daa5184c.css.map": "/3dAnnotator/static/css/main.daa5184c.css.map",
+    "main.41427674.js.map": "/3dAnnotator/static/js/main.41427674.js.map",
+    "453.b5aaa8bc.chunk.js.map": "/3dAnnotator/static/js/453.b5aaa8bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.daa5184c.css",
+    "static/js/main.41427674.js"
+  ]
+}
