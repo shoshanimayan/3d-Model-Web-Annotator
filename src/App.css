@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+ margin: 0;
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+:root {
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+
+  
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  justify-content: center; 
+  align-items: center;     
+}
+
+.r3fContainer {
+  width: 100%;
+  height: 75vh; /* 3/4 of the viewport height */
+  
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white; /* As requested earlier */
+  overflow: hidden;        /* Prevents canvas overflow scrollbars */
+}
+
+/* Ensure the Canvas fills the centered area */
+.r3fContainer canvas {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.AnnotationMenu{
+  background-color: lightgrey;
+ width: 100%;
+  height: 25vh; /* 3/4 of the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: start;
+  flex-direction: column;
+  margin: 0;
+}
+
+.annotationToggle{
+  background-color: lightgray;
+  border-color: darkgray;
+  border-radius: 10px;
+  height: fit-content;
+  width: fit-content;
+  color: black;
+  
+}
+
+.toggleArea{
+  width: 100%;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+ 
+  text-align: center;
+
+}
+
+
+
+.textSpace{
+width: 100%;       /* Full width */
+  height: 70%;      /* 70% of viewport/parent height */
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding doesn't add to width/height */
+  
+  /* Centers the textarea inside the container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.textInput
+{
+  width: 100%;       /* Full width of container */
+  height: 80%;      /* 80% of container height */
+  resize: none;      /* Optional: prevents user from breaking the layout */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+width: 100%;
+height: 80%;
+color: grey;
+background-color: white;
+padding-bottom: 10px;
+
+}
+
+.tag{
+  background-color: white;
+  display: inline-flex;
+  white-space: nowrap;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+
+}
